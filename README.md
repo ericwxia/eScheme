@@ -6,6 +6,8 @@ Launch a terminal, input ```python3 scheme.py``` to enter the interactive mode `
 
 You can find examples in the ```tests.scm``` file.
 
+For instance,
+
 ```
 python3 scheme.py tests.scm
 
@@ -41,7 +43,7 @@ escm> (exit)
 ```
 
 ##Supported Features
-* Data type: boolean, number, symbol, pair, list, etc
+* Data types: boolean, number, symbol, pair, list, etc
 * Procedures: lambda procedure, user defined procedure, etc
 * Expressions: if, and, or, cond, etc
 * Operations: addition, multiplication, subtraction, division, etc
