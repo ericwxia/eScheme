@@ -1,5 +1,5 @@
 # eScheme
-eScheme: A Scheme Interpreter in Python
+This is an interpreter implemented in Python for a subset of the Scheme language.
 
 ##Usage
 Launch a terminal, input ```python3 scheme.py``` to enter the interactive mode ```escm>   ```, then you can type standard scheme commands.
@@ -46,4 +46,4 @@ escm> (exit)
 * Data types: boolean, number, symbol, pair, list, etc
 * Procedures: lambda procedure, user defined procedure, etc
 * Expressions: if, and, or, cond, etc
-* Operations: addition, multiplication, subtraction, division, etc
+* Operators: addition, multiplication, subtraction, division, relational, logical, etc
