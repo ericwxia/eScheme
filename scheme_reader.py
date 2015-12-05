@@ -185,11 +185,11 @@ def read_tail(src):
 
 # Convenience methods
 
-def buffer_input(prompt="escm> "):
+def buffer_input(prompt="scm> "):
     """Return a Buffer instance containing interactive input."""
     return Buffer(tokenize_lines(InputReader(prompt)))
 
-def buffer_lines(lines, prompt="escm> ", show_prompt=False):
+def buffer_lines(lines, prompt="scm> ", show_prompt=False):
     """Return a Buffer instance iterating through LINES."""
     if show_prompt:
         input_lines = lines
